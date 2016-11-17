@@ -397,11 +397,13 @@ static NSString *const chatSelectPhotoItemIdentifier = @"PhotoMultiselectItemIde
     __weak typeof(self) weakself = self;
     previewVC.onClickBackCallback = ^(NSMutableArray *selectedModelList) {
         weakself.selectedModelList = selectedModelList;
+        [weakself updateBottomView];
         [weakself.collectionView reloadData];
     };
     
     previewVC.onClickSendCallback = ^(NSMutableArray *selectedModelList) {
         weakself.selectedModelList = selectedModelList;
+        [weakself updateBottomView];
         [weakself onClickFinish];
     };
     [self.navigationController pushViewController:previewVC animated:YES];
