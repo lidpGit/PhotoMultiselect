@@ -14,6 +14,15 @@
 		6A52408B1DDD925100DFE0B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A52408A1DDD925100DFE0B9 /* Assets.xcassets */; };
 		6A52408E1DDD925100DFE0B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A52408C1DDD925100DFE0B9 /* LaunchScreen.storyboard */; };
 		6A5240991DDD925100DFE0B9 /* PhotoMultiselectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240981DDD925100DFE0B9 /* PhotoMultiselectTests.m */; };
+		6A5240A81DDD92A400DFE0B9 /* PhotoMultiselectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240A51DDD92A400DFE0B9 /* PhotoMultiselectViewController.m */; };
+		6A5240A91DDD92A400DFE0B9 /* PhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240A71DDD92A400DFE0B9 /* PhotoPreviewController.m */; };
+		6A5240AD1DDD937B00DFE0B9 /* UIView+ExtensionMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240AC1DDD937B00DFE0B9 /* UIView+ExtensionMethods.m */; };
+		6A5240B01DDD939400DFE0B9 /* UIButton+ExtensionMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240AF1DDD939400DFE0B9 /* UIButton+ExtensionMethods.m */; };
+		6A5240B31DDD93C500DFE0B9 /* UIImage+ExtensionMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240B21DDD93C500DFE0B9 /* UIImage+ExtensionMethods.m */; };
+		6A5240B61DDD946D00DFE0B9 /* UIColor+ExtensionMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240B51DDD946D00DFE0B9 /* UIColor+ExtensionMethods.m */; };
+		6A5240BA1DDD95EA00DFE0B9 /* UILabel+ExtensionMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240B91DDD95EA00DFE0B9 /* UILabel+ExtensionMethods.m */; };
+		6A5240BD1DDD97B100DFE0B9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5240BC1DDD97B100DFE0B9 /* Photos.framework */; };
+		6A5240C01DDD9D6100DFE0B9 /* PhotoGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5240BF1DDD9D6100DFE0B9 /* PhotoGroupListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,23 @@
 		6A5240941DDD925100DFE0B9 /* PhotoMultiselectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMultiselectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5240981DDD925100DFE0B9 /* PhotoMultiselectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoMultiselectTests.m; sourceTree = "<group>"; };
 		6A52409A1DDD925100DFE0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5240A41DDD92A400DFE0B9 /* PhotoMultiselectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoMultiselectViewController.h; sourceTree = "<group>"; };
+		6A5240A51DDD92A400DFE0B9 /* PhotoMultiselectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoMultiselectViewController.m; sourceTree = "<group>"; };
+		6A5240A61DDD92A400DFE0B9 /* PhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPreviewController.h; sourceTree = "<group>"; };
+		6A5240A71DDD92A400DFE0B9 /* PhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPreviewController.m; sourceTree = "<group>"; };
+		6A5240AB1DDD937B00DFE0B9 /* UIView+ExtensionMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtensionMethods.h"; sourceTree = "<group>"; };
+		6A5240AC1DDD937B00DFE0B9 /* UIView+ExtensionMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtensionMethods.m"; sourceTree = "<group>"; };
+		6A5240AE1DDD939400DFE0B9 /* UIButton+ExtensionMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ExtensionMethods.h"; sourceTree = "<group>"; };
+		6A5240AF1DDD939400DFE0B9 /* UIButton+ExtensionMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ExtensionMethods.m"; sourceTree = "<group>"; };
+		6A5240B11DDD93C500DFE0B9 /* UIImage+ExtensionMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ExtensionMethods.h"; sourceTree = "<group>"; };
+		6A5240B21DDD93C500DFE0B9 /* UIImage+ExtensionMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ExtensionMethods.m"; sourceTree = "<group>"; };
+		6A5240B41DDD946D00DFE0B9 /* UIColor+ExtensionMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ExtensionMethods.h"; sourceTree = "<group>"; };
+		6A5240B51DDD946D00DFE0B9 /* UIColor+ExtensionMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ExtensionMethods.m"; sourceTree = "<group>"; };
+		6A5240B81DDD95EA00DFE0B9 /* UILabel+ExtensionMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ExtensionMethods.h"; sourceTree = "<group>"; };
+		6A5240B91DDD95EA00DFE0B9 /* UILabel+ExtensionMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ExtensionMethods.m"; sourceTree = "<group>"; };
+		6A5240BC1DDD97B100DFE0B9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		6A5240BE1DDD9D6100DFE0B9 /* PhotoGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoGroupListViewController.h; sourceTree = "<group>"; };
+		6A5240BF1DDD9D6100DFE0B9 /* PhotoGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoGroupListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A5240BD1DDD97B100DFE0B9 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +93,7 @@
 				6A52407D1DDD925100DFE0B9 /* PhotoMultiselect */,
 				6A5240971DDD925100DFE0B9 /* PhotoMultiselectTests */,
 				6A52407C1DDD925100DFE0B9 /* Products */,
+				6A5240BB1DDD97B000DFE0B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +109,8 @@
 		6A52407D1DDD925100DFE0B9 /* PhotoMultiselect */ = {
 			isa = PBXGroup;
 			children = (
+				6A5240AA1DDD934900DFE0B9 /* Category */,
+				6A5240A31DDD929C00DFE0B9 /* PhotoVC */,
 				6A5240811DDD925100DFE0B9 /* AppDelegate.h */,
 				6A5240821DDD925100DFE0B9 /* AppDelegate.m */,
 				6A5240841DDD925100DFE0B9 /* ViewController.h */,
@@ -109,6 +139,44 @@
 				6A52409A1DDD925100DFE0B9 /* Info.plist */,
 			);
 			path = PhotoMultiselectTests;
+			sourceTree = "<group>";
+		};
+		6A5240A31DDD929C00DFE0B9 /* PhotoVC */ = {
+			isa = PBXGroup;
+			children = (
+				6A5240BE1DDD9D6100DFE0B9 /* PhotoGroupListViewController.h */,
+				6A5240BF1DDD9D6100DFE0B9 /* PhotoGroupListViewController.m */,
+				6A5240A41DDD92A400DFE0B9 /* PhotoMultiselectViewController.h */,
+				6A5240A51DDD92A400DFE0B9 /* PhotoMultiselectViewController.m */,
+				6A5240A61DDD92A400DFE0B9 /* PhotoPreviewController.h */,
+				6A5240A71DDD92A400DFE0B9 /* PhotoPreviewController.m */,
+			);
+			path = PhotoVC;
+			sourceTree = "<group>";
+		};
+		6A5240AA1DDD934900DFE0B9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6A5240AE1DDD939400DFE0B9 /* UIButton+ExtensionMethods.h */,
+				6A5240AF1DDD939400DFE0B9 /* UIButton+ExtensionMethods.m */,
+				6A5240AB1DDD937B00DFE0B9 /* UIView+ExtensionMethods.h */,
+				6A5240AC1DDD937B00DFE0B9 /* UIView+ExtensionMethods.m */,
+				6A5240B11DDD93C500DFE0B9 /* UIImage+ExtensionMethods.h */,
+				6A5240B21DDD93C500DFE0B9 /* UIImage+ExtensionMethods.m */,
+				6A5240B41DDD946D00DFE0B9 /* UIColor+ExtensionMethods.h */,
+				6A5240B51DDD946D00DFE0B9 /* UIColor+ExtensionMethods.m */,
+				6A5240B81DDD95EA00DFE0B9 /* UILabel+ExtensionMethods.h */,
+				6A5240B91DDD95EA00DFE0B9 /* UILabel+ExtensionMethods.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6A5240BB1DDD97B000DFE0B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A5240BC1DDD97B100DFE0B9 /* Photos.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +228,8 @@
 				TargetAttributes = {
 					6A52407A1DDD925100DFE0B9 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 9SRBPG942U;
+						ProvisioningStyle = Manual;
 					};
 					6A5240931DDD925100DFE0B9 = {
 						CreatedOnToolsVersion = 8.0;
@@ -214,7 +283,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A5240861DDD925100DFE0B9 /* ViewController.m in Sources */,
+				6A5240BA1DDD95EA00DFE0B9 /* UILabel+ExtensionMethods.m in Sources */,
+				6A5240AD1DDD937B00DFE0B9 /* UIView+ExtensionMethods.m in Sources */,
+				6A5240B31DDD93C500DFE0B9 /* UIImage+ExtensionMethods.m in Sources */,
 				6A5240831DDD925100DFE0B9 /* AppDelegate.m in Sources */,
+				6A5240B01DDD939400DFE0B9 /* UIButton+ExtensionMethods.m in Sources */,
+				6A5240B61DDD946D00DFE0B9 /* UIColor+ExtensionMethods.m in Sources */,
+				6A5240A91DDD92A400DFE0B9 /* PhotoPreviewController.m in Sources */,
+				6A5240C01DDD9D6100DFE0B9 /* PhotoGroupListViewController.m in Sources */,
+				6A5240A81DDD92A400DFE0B9 /* PhotoMultiselectViewController.m in Sources */,
 				6A5240801DDD925100DFE0B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,10 +426,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SRBPG942U;
 				INFOPLIST_FILE = PhotoMultiselect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TTW.PhotoMultiselect;
+				PRODUCT_BUNDLE_IDENTIFIER = TTW.TalkWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0911f9c8-101d-4810-b97a-2be7e90d97f1";
+				PROVISIONING_PROFILE_SPECIFIER = ttw_inhouse_dev;
 			};
 			name = Debug;
 		};
@@ -360,10 +441,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SRBPG942U;
 				INFOPLIST_FILE = PhotoMultiselect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TTW.PhotoMultiselect;
+				PRODUCT_BUNDLE_IDENTIFIER = TTW.TalkWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0911f9c8-101d-4810-b97a-2be7e90d97f1";
+				PROVISIONING_PROFILE_SPECIFIER = ttw_inhouse_dev;
 			};
 			name = Release;
 		};

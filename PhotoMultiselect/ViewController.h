@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ResultCell : UICollectionViewCell
+
+@property (strong, nonatomic) UIImageView *imageView;
+
+@end
+
+@interface ViewController : UICollectionViewController
 
 
 @end
